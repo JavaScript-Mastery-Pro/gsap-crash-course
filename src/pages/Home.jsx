@@ -37,64 +37,11 @@ const animations = [
       "The ScrollTrigger plugin is used to trigger animations based on the scroll position.",
     path: "/gsapscrolltrigger",
   },
-  //   {
-  //     title: "GSAP Draggable",
-  //     description: "The Draggable plugin is used to make DOM elements draggable.",
-  //     path: "/gsapdraggable",
-  //   },
-  //   {
-  //     title: "GSAP SplitText",
-  //     description:
-  //       "The SplitText plugin is used to split text into characters, words, or lines.",
-  //     path: "/gsapsplittext",
-  //   },
-  //   {
-  //     title: "GSAP CustomEase",
-  //     description:
-  //       "The CustomEase plugin is used to create custom easing functions.",
-  //     path: "/gsapcustomease",
-  //   },
-  //   {
-  //     title: "GSAP CustomWiggle",
-  //     description:
-  //       "The CustomWiggle plugin is used to create custom wiggle effects.",
-  //     path: "/gsapcustomwiggle",
-  //   },
-  //   {
-  //     title: "GSAP CustomBounce",
-  //     description:
-  //       "The CustomBounce plugin is used to create custom bounce effects.",
-  //     path: "/gsapcustombounce",
-  //   },
-  //   {
-  //     title: "GSAP CustomEasePack",
-  //     description:
-  //       "The CustomEasePack plugin is used to create custom easing functions.",
-  //     path: "/gsapcustomeasepack",
-  //   },
-  //   {
-  //     title: "GSAP CustomWigglePack",
-  //     description:
-  //       "The CustomWigglePack plugin is used to create custom wiggle effects.",
-  //     path: "/gsapcustomwigglepack",
-  //   },
-  //   {
-  //     title: "GSAP CustomBouncePack",
-  //     description:
-  //       "The CustomBouncePack plugin is used to create custom bounce effects.",
-  //     path: "/gsapcustombouncepack",
-  //   },
-  //   {
-  //     title: "GSAP MorphSVG",
-  //     description: "The MorphSVG plugin is used to morph SVG elements.",
-  //     path: "/gsapmorphsvg",
-  //   },
-  //   {
-  //     title: "GSAP MotionPath",
-  //     description:
-  //       "The MotionPath plugin is used to animate elements along a motion path.",
-  //     path: "/gsapmotionpath",
-  //   },
+  {
+    title: "GSAP Text",
+    description: "Learn how to animate text with GSAP.",
+    path: "/gsaptext",
+  },
 ];
 
 const Home = () => {
@@ -123,7 +70,6 @@ const Home = () => {
                 <p className="text-gray-400 text-xs">{animation.description}</p>
               </div>
 
-              {/* Create a arrow blue svg */}
               <svg
                 className="size-6 text-gray-600 -rotate-90"
                 fill="currentColor"
